@@ -1,7 +1,7 @@
 
 ## Paleta
 
-![img](https://ibb.co/i68RLc)
+![img](https://image.ibb.co/m4caDx/Captura3.png)
 
 ***
 
@@ -9,20 +9,20 @@
 
 ### Menú principal
 
-![img](https://ibb.co/dunOix)
+![img](https://image.ibb.co/nmCpOx/Whats_App_Image_2018_02_05_at_2_15_41_AM.jpg)
 
 
 ### About me
 
-![img](https://ibb.co/jB7EOx)
+![img](https://image.ibb.co/eeLqwH/Whats_App_Image_2018_02_05_at_2_15_41_AM_1.jpg)
 
 
 ### Proyectos
 
-![img](https://ibb.co/ku2nbH)
+![img](https://image.ibb.co/cZDtGH/Whats_App_Image_2018_02_05_at_2_15_41_AM_2.jpg)
 
 
 ### Contáctame
 
-![img](https://ibb.co/eEvJix)
+![img](https://image.ibb.co/iMq7bH/Whats_App_Image_2018_02_05_at_2_15_41_AM_3.jpg)
 
