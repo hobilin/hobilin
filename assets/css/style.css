@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.main {
+  height: 100vh;
+
+}
+
+#title {
+  font-family: 'Homemade Apple', cursive;
+  color: #fff;
+  font-size: 4em;
+  text-shadow: 2px 2px #000;
+  position: absolute;
+  top: 4em;
+  left: 8em; }
+
+#subtitle {
+  font-family: 'Inconsolata', monospace;
+  color: #fff;
+  position: absolute;
+  top: 13em;
+  left: 20em; }
+
+.dots {
+  padding-top: 7em;
+}
+.dot {
+  width: 3em;
+  height: 3em;
+  display: block;
+  padding-top: 5em;
+  padding-left: 2em; 
+}
+
+.flower-dot {
+  width: 3em;
+  height: 3em;
+  display: block;
+  padding-top: 5em;
+  padding-left: 2em; }
+
+.dot:hover, .flower-dot:hover {
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 4em;
+  color: #b76e79;
+  text-align: center;
+}
+
+.myself {
+  margin-bottom: 8em;
+}
+
+.know-me{
+  margin-top:5em;
+  margin-bottom: 5em;
+  padding: 2em;
+  background-color: #D18F99;
+  border-radius: 1.5em;
+  margin-left: 2em;
+  color: #fff;
+}
+
+.crowns {
+  margin-top:1em;
+  width: 8em;
+  height: 8em;
+  display: inline-block;
+  margin-bottom: 1em;
+  margin-left: 8em;
+}
+
+.projects {
+  padding-bottom: 10em;
+}
+
+.carousel {
+  height: 200px !important;
+}
+
+.fa-envelope, .fa-linkedin-in, .fa-github {
+  color: #b76e79;
+  margin: 3em 4em 2em 2em;
+  font-size: 3em;
+}
+.fa-envelope {
+  margin-left:6em;
+}
+
+.hang {
+  width: 6em;
+  height:12em;
+  padding-left: 1.2em;
+}
+
+.develop {
+  width: 100%;
+  height: 20vh;
+  padding: 3em;
+  background-color: #b76e79;
+  color:#fff;
+  text-align: center;
+}
+
+    .fade {
+        opacity: 1 !important;
+    }
+
+    #splash {
+        display: none;
+    }
+
+    canvas {
+        left: 50%;
+        max-height: 950px;
+        max-width: 950px;
+        position: absolute;
+        top: 50%;
+    }
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.tip {
+  font-size: 1em;
+  text-align: center;
+  color: #CD3173;
+  padding: 0.5em;
+}
