@@ -1,0 +1,22 @@
+Fonts used in this design;
+
+Font: Amatic, 
+Author: Vernon Adams, 
+Url: http://www.fontsquirrel.com/fonts/amatic; 
+
+Font: Bebas Neue, 
+Author: Fontfabric, 
+Url: http://www.fontsquirrel.com/fonts/bebas-neue; 
+
+Font: Learning Curve Pro, 
+Author: Blue Vinyl Fonts, 
+Url: http://www.fontsquirrel.com/fonts/learning-curve-pro; 
+
+Font: Playfair Display, 
+Author: Claus Eggers Sørensen, 
+Url: http://www.fontsquirrel.com/fonts/playfair-display; 
+
+Font: Rochester, 
+Author: Sideshow, 
+Url: http://www.fontsquirrel.com/fonts/rochester; 
+

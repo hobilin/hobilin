@@ -1,7 +1,7 @@
  $(document).ready(function(){
-      $('.carousel').carousel();
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        $('.carousel').carousel();
 
-  
       $('.myself').hide();
       $('.projects').hide();
       $('.contact').hide();

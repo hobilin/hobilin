@@ -144,3 +144,10 @@ html,body
   color: #CD3173;
   padding: 0.5em;
 }
+
+.carousel-item {
+  background-repeat: no-repeat;
+  background-image: url(../img/dot.png);
+  background-size: cover;
+  background-position: center;
+}
