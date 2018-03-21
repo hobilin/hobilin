@@ -1,12 +1,19 @@
- $(document).ready(function(){
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
-        $('.carousel').carousel();
+$(document).ready(function() {
 
-      $('.myself').hide();
-      $('.projects').hide();
-      $('.contact').hide();
 
-      $('#code').click(function() {
+
+    $('body').sakura();
+
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true
+    });
+    $('.carousel').carousel();
+
+    $('.myself').hide();
+    $('.projects').hide();
+    $('.contact').hide();
+
+    $('#code').click(function() {
         $('.tip').hide();
         $(this).removeClass('dot');
         $(this).addClass('flower-dot');
@@ -19,9 +26,9 @@
         $('.projects').hide();
         $('.contact').hide();
         $('.myself').hide();
-      })
+    })
 
-      $('#skills').click(function() {
+    $('#skills').click(function() {
         $('.tip').hide();
         $(this).removeClass('dot');
         $(this).addClass('flower-dot');
@@ -35,9 +42,9 @@
         $('.contact').hide();
         $('.myself').show();
 
-      });
+    });
 
-      $('#projects').click(function() {
+    $('#projects').click(function() {
         $('.tip').hide();
         $(this).removeClass('dot');
         $(this).addClass('flower-dot');
@@ -50,9 +57,9 @@
         $('.projects').show();
         $('.contact').hide();
         $('.myself').hide();
-      });
+    });
 
-      $('#contact').click(function() {
+    $('#contact').click(function() {
         $('.tip').hide();
         $(this).removeClass('dot');
         $(this).addClass('flower-dot');
@@ -65,15 +72,14 @@
         $('.projects').hide();
         $('.contact').show();
         $('.myself').hide();
-      });
-
-
-
     });
-        
 
 
 
+});
+
+ 
+/*
     var fade = document.querySelector('.fade');
 
 
@@ -100,4 +106,4 @@
 
 
     });
-
+*/

@@ -11,64 +11,62 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
+
 
 .main {
-  height: 100vh;
-
+  background-image: url('../img/Nueva carpeta/3701120b1b90c27bc883d1e0d8500cfa.png');
+  background-position: 50% -5%;
+  background-repeat: no-repeat;
+  background-size: 40em 50em;
+  height: 90vh;
+  font-family: 'Amatic SC', 'cursive';
 }
 
-#title {
-  font-family: 'Homemade Apple', cursive;
-  color: #fff;
-  font-size: 4em;
-  text-shadow: 2px 2px #000;
-  position: absolute;
-  top: 4em;
-  left: 8em; }
 
-#subtitle {
-  font-family: 'Inconsolata', monospace;
-  color: #fff;
-  position: absolute;
-  top: 13em;
-  left: 20em; }
 
 .dots {
-  padding-top: 7em;
+  text-align: center;
+  padding-top: 1em;
 }
+
+.tip {
+  font-size: 0.9em;
+  color: #CD3173;
+  display: inline-block;
+}
+
 .dot {
   width: 3em;
   height: 3em;
-  display: block;
-  padding-top: 5em;
-  padding-left: 2em; 
+  display: inline-block;
+  padding: 1em;
+
 }
 
 .flower-dot {
   width: 3em;
   height: 3em;
-  display: block;
-  padding-top: 5em;
-  padding-left: 2em; }
+  display: inline-block;
+  padding: 1em; }
 
 .dot:hover, .flower-dot:hover {
   cursor: pointer;
 }
 
-.arrow {
-  font-size: 4em;
-  color: #b76e79;
+#title {
   text-align: center;
+  padding-top: 10em;
 }
 
+
 .myself {
-  margin-bottom: 8em;
+  padding: 5em;
 }
 
 .know-me{
-  margin-top:5em;
+  margin-top: 4em;
+  padding-top: 2em;
   margin-bottom: 5em;
   padding: 2em;
   background-color: #D18F99;
@@ -78,76 +76,231 @@ html,body
 }
 
 .crowns {
-  margin-top:1em;
   width: 8em;
-  height: 8em;
+  height: 4em;
   display: inline-block;
-  margin-bottom: 1em;
-  margin-left: 8em;
+  text-align: center;
+  padding: 2em;
+  padding-bottom: 15em;
 }
 
-.projects {
-  padding-bottom: 10em;
+.projects{
+  height: 90vh;
+  background-image: url('../img/Nueva carpeta/64b485538f8788c4735115d3d700512e.png');
+  background-repeat:no-repeat;
+  background-position: 0% 80%;
 }
 
-.carousel {
-  height: 200px !important;
+.contact{
+  height: 90vh;
 }
-
 .fa-envelope, .fa-linkedin-in, .fa-github {
   color: #b76e79;
-  margin: 3em 4em 2em 2em;
   font-size: 3em;
-}
-.fa-envelope {
-  margin-left:6em;
+  text-align: center;
 }
 
-.hang {
-  width: 6em;
-  height:12em;
-  padding-left: 1.2em;
+.icons {
+  text-align: center;
+  padding-top: 13em;
+  padding-left: 20em;
 }
 
 .develop {
   width: 100%;
-  height: 20vh;
   padding: 3em;
   background-color: #b76e79;
   color:#fff;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-    .fade {
-        opacity: 1 !important;
-    }
+.carousel {
+  height: 600px !important;
+  margin-top: 9em !important;
 
-    #splash {
-        display: none;
-    }
-
-    canvas {
-        left: 50%;
-        max-height: 950px;
-        max-width: 950px;
-        position: absolute;
-        top: 50%;
-    }
-
-.container-fluid {
-  padding: 0 !important;
-}
-
-.tip {
-  font-size: 1em;
-  text-align: center;
-  color: #CD3173;
-  padding: 0.5em;
 }
 
 .carousel-item {
+  width: 600px !important;
+  height: 300px !important;
+}
+.one {
   background-repeat: no-repeat;
-  background-image: url(../img/dot.png);
+  background-image: url('../img/projects/artgallery.PNG');
   background-size: cover;
   background-position: center;
 }
+
+.two {
+  background-repeat: no-repeat;
+  background-image: url('../img/projects/trello.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.three {
+  background-repeat: no-repeat;
+  background-image: url('../img/projects/addictive.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.four {
+  background-repeat: no-repeat;
+  background-image: url('../img/projects/labcar.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.five {
+  background-repeat: no-repeat;
+  background-image: url('../img/projects/ahorrockets.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 320px) and (max-width: 375px) {
+   .crowns {
+  width: 16em;
+  height: 8em;
+  padding-bottom: 6em;
+  padding-top: 2em;
+}
+
+.know-me {
+  padding-top: 2em;
+}
+
+.carousel {
+   height: 200px !important;
+  margin-top: 5em;
+}
+
+.carousel-item {
+  width: 250px !important;
+  height: 200px !important;
+}
+
+.icons {
+  padding-top: 8em;
+  padding-left: 0;
+}
+
+
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+   .crowns {
+  padding-bottom: 10em;
+}
+
+.know-me {
+  padding-top: 4em;
+}
+
+.carousel {
+   height: 200px !important;
+  margin-top:3em;
+}
+
+.carousel-item {
+  width: 250px !important;
+  height: 200px !important;
+}
+
+
+.icons {
+  padding-top: 8em;
+  padding-left: 0;
+}
+
+}
+
+@media (min-width: 667px) and (max-width: 1024px) {
+  .crowns {
+  width: 16em;
+  height: 8em;
+  padding-bottom: 30em;
+  padding-top: 2em;
+}
+
+.know-me {
+  padding-top: 5em;
+  margin-left: 5em;
+}
+
+.carousel {
+   height: 200px !important;
+  margin-top:3em;
+}
+
+.carousel-item {
+  width: 400px !important;
+  height: 200px !important;
+}
+
+.icons {
+  padding-top: 8em;
+  padding-left: 0;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .crowns {
+  padding-bottom: 10em;
+}
+
+.know-me {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.carousel {
+   height: 300px !important;
+  margin-top:3em;
+}
+
+.carousel-item {
+  width: 600px !important;
+  height: 300px !important;
+}
+.icons {
+  text-align: center;
+  padding-top: 8em;
+  padding-left: 13em;
+}
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .crowns {
+  padding-bottom: 15em;
+}
+
+.know-me {
+  margin-top: 5em;
+}
+
+.carousel {
+   height: 300px !important;
+  margin-top: 9em;
+}
+
+.carousel-item {
+  width: 600px !important;
+  height: 300px !important;
+}
+.icons {
+  text-align: center;
+  padding-top: 10em;
+  padding-left: 20em;
+}
+}
+
