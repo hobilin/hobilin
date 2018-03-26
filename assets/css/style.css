@@ -301,3 +301,7 @@ html,body
 .carousel {
   z-index: 10000000000;
 }
+
+.card a {
+  color: #D18F99 !important;
+}
