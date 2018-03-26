@@ -78,7 +78,6 @@ $(document).ready(function() {
 
 });
 
-$('.smoo').smoove({opacity:'0', moveY: '90px',});
  
 /*
     var fade = document.querySelector('.fade');

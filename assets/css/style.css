@@ -61,7 +61,7 @@ html,body
 
 
 .myself {
-  padding: 5em;
+  padding: 2em;
 }
 
 .know-me{
@@ -274,9 +274,7 @@ html,body
   padding-bottom: 15em;
 }
 
-.know-me {
-  margin-top: 5em;
-}
+
 /*
 .carousel {
    height: 300px !important;
