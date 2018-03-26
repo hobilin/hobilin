@@ -12251,5 +12251,9 @@ $jscomp.polyfill = function (e, r, p, m) {
     M.initializeJqueryWrapper(Range, 'range', 'M_Range');
   }
 
+
+
   Range.init($('input[type=range]'));
 })(cash, M.anime);
+
+

@@ -128,40 +128,6 @@ html,body
   width: 600px !important;
   height: 300px !important;
 }*/
-.one {
-  background-repeat: no-repeat;
-  background-image: url('../img/projects/artgallery.PNG');
-  background-size: cover;
-  background-position: center;
-}
-
-.two {
-  background-repeat: no-repeat;
-  background-image: url('../img/projects/trello.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.three {
-  background-repeat: no-repeat;
-  background-image: url('../img/projects/addictive.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.four {
-  background-repeat: no-repeat;
-  background-image: url('../img/projects/labcar.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.five {
-  background-repeat: no-repeat;
-  background-image: url('../img/projects/ahorrockets.png');
-  background-size: cover;
-  background-position: center;
-}
 
 
 /*MEDIA QUERIES*/
@@ -193,6 +159,13 @@ html,body
   padding-left: 0;
 }
 
+.projects{
+  height: auto;
+  background-image: url('../img/Nueva carpeta/64b485538f8788c4735115d3d700512e.png');
+  background-repeat: repeat;
+  background-position: 0% 80%;
+}
+
 
 }
 
@@ -221,9 +194,18 @@ html,body
   padding-left: 0;
 }
 
+.projects{
+  height: auto;
+  background-image: url('../img/Nueva carpeta/64b485538f8788c4735115d3d700512e.png');
+  background-repeat:repeat;
+  background-position: 0% 80%;
 }
 
-@media (min-width: 667px) and (max-width: 1024px) {
+
+
+}
+
+@media (min-width: 667px) and (max-width: 1023px) {
   .crowns {
   width: 16em;
   height: 8em;
@@ -250,6 +232,14 @@ html,body
   padding-top: 8em;
   padding-left: 0;
 }
+
+.projects{
+  height: auto;
+  background-image: url('../img/Nueva carpeta/64b485538f8788c4735115d3d700512e.png');
+  background-repeat:repeat;
+  background-position: 0% 80%;
+}
+
 
 }
 

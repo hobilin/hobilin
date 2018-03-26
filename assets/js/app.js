@@ -2,11 +2,12 @@ $(document).ready(function() {
 
 
 
+
+
     $('body').sakura();
 
 
     $('.carousel').carousel();
-
 
     $('.myself').hide();
     $('.projects').hide();
@@ -77,6 +78,7 @@ $(document).ready(function() {
 
 });
 
+$('.smoo').smoove({opacity:'0', moveY: '90px',});
  
 /*
     var fade = document.querySelector('.fade');
