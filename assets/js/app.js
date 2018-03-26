@@ -4,10 +4,9 @@ $(document).ready(function() {
 
     $('body').sakura();
 
-    $('.carousel.carousel-slider').carousel({
-        fullWidth: true
-    });
+
     $('.carousel').carousel();
+
 
     $('.myself').hide();
     $('.projects').hide();
